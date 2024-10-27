@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 import numpy as np
-
+import pandas
 mask_dir = 'Pytorch-UNet-master/data/masks'
 
 for mask_file in os.listdir(mask_dir):
