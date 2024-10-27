@@ -8,6 +8,7 @@ from data_loader import CityscapesDataset, get_data_loaders
 from helpers import list_of_distances, make_one_hot
 from model import PPNet
 from Pytorch_UNet_master.unet.unet_model import UNet
+import pathlib
 
 # Define root directory for dataset
 root_dir = "D:/Research Internship IISER Bhopal/proto-segmentation-master sacha/proto-segmentation-master/CityScapes Dataset"
