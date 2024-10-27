@@ -6,7 +6,7 @@ from PIL import Image
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
+import img_to_numpy
 
 def add_margins_to_image(img, margin_size):
     margin_left = img.crop((0, 0, margin_size, img.height)).transpose(Image.FLIP_LEFT_RIGHT)
