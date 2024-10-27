@@ -2,7 +2,7 @@ import os
 from torch.utils.data import Dataset, DataLoader
 from PIL import Image
 from torchvision import transforms
-
+import pathlib
 class CityscapesDataset(Dataset):
     def __init__(self, root_dir, split='train', transform=None):
         self.root_dir = root_dir
