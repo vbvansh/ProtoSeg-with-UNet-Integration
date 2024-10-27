@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from .unet_parts import *  # Ensure this imports your new blocks
 from .Lo2_Block import Lo2_Block
-
+import numpy
 class UNet(nn.Module):
     def __init__(self, n_channels, n_classes, bilinear=True):
         super(UNet, self).__init__()
