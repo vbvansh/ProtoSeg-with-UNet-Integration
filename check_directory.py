@@ -1,5 +1,5 @@
 import os
-
+import pathlib
 def verify_cityscapes_structure():
     root_dir = "D:/Research Internship IISER Bhopal/proto-segmentation-master sacha/proto-segmentation-master/CityScapes Dataset"
     
